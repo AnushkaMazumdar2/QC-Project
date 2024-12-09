@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quantum Key Distribution Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-indigo-900 via-purple-900 to-black min-h-screen flex items-center justify-center">
+    <div class="container mx-auto px-4 py-16">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-6xl font-bold text-white mb-6 tracking-tight">
+                Quantum Key Distribution
+                <span class="block text-3xl text-indigo-300 mt-2">Securing Communication with Quantum Mechanics</span>
+            </h1>
+
+            <div class="grid md:grid-cols-2 gap-8 mt-12">
+                <div class="bg-white/10 backdrop-blur-lg rounded-xl p-6 hover:bg-white/20 transition-all group">
+                    <div class="flex items-center justify-center mb-4">
+                        <i class="fas fa-lock text-5xl text-blue-400 group-hover:text-blue-300 transition"></i>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-white mb-4">BB84 Protocol</h2>
+                    <p class="text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        A quantum cryptography protocol using quantum states of light to generate secure encryption keys. Eavesdropping is detected through basis mismatches.
+                    </p>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-lg rounded-xl p-6 hover:bg-white/20 transition-all group">
+                    <div class="flex items-center justify-center mb-4">
+                        <i class="fas fa-link text-5xl text-green-400 group-hover:text-green-300 transition"></i>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-white mb-4">E91 Protocol</h2>
+                    <p class="text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        Utilizes quantum entanglement to create a secure communication channel. Detects eavesdropping through quantum correlation violations.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-16">
+                <a href="http://localhost:8501" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-xl transition transform hover:scale-105 shadow-2xl">
+                    Let's Get Started <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
